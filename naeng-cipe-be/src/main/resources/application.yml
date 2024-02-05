@@ -4,3 +4,8 @@ spring:
     group:
       local:
         - secret
+
+jwt:
+  secret-key: "SECRET"
+  access-token-expiration-msec: 0
+  refresh-token-expiration-msec: 0
